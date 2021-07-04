@@ -6,7 +6,10 @@ body{
 h1{
     font-size: 50px;
 }
-.name{
+h2{
+    font-size: 40px;
+}
+.orange-color{
     color: orange;
 }
 .flexible-container{
@@ -41,4 +44,30 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Web-Developer-experience{
+    border-left: 10px solid;
+    border-image: linear-gradient(#0112ff, #02e2ff) 30;
+    border-image-slice: 1;
+}
+
+#full-Developer-experience{
+    border-left: 10px solid salmon;
+}
+footer p{
+    text-align: center;
 }
